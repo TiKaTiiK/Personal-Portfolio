@@ -453,18 +453,19 @@ section{
 
 .credit{
    text-align: center;
-   background-color: var(--black);
-   padding:3rem;
+   background-color: var(--white);
+   /* padding:3rem; */
    font-size: 2rem;
-   color:var(--white);
+   color:var(--black);
 }
 
-.credit span{
+.credit a{
    color:var(--blue);
 }
-
-
-
+.credit a img {
+   width: 15rem;
+   height: auto ;
+}
 
 
 
